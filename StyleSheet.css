@@ -1,4 +1,6 @@
-﻿body {
+
+
+body {
     display: flex;
     margin: 0;
     padding: 0;
@@ -9,18 +11,27 @@
     align-items: center;
     font-family: 'Times New Roman';
 }
+#title-1 {
+    position:absolute;
+    top: 5%;
+    left: 42%;
+    font-size: 1cm;
+    color: white;
+}
 #logo {
-    position: relative;
-    width: 150px;
-    height: 150px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:12%;
+    left:45%;
     border-radius:50%;
     animation:image-filter 1s infinite alternate;
 }
 
 #your-image {
     position: absolute;
-    top: -362%;
-    right: 32%;
+   top:0%;
+   left:0%;
     width: 100%;
     height: 100%;
     border-radius:100%;
@@ -147,7 +158,7 @@
     }
 
     to {
-        filter: brightness(140%) contrast(140%) opacity(100%);
+        filter: brightness(100%) contrast(100%) opacity(100%);
     }
 }
 
