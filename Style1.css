@@ -1,0 +1,48 @@
+﻿body{
+
+    background:#444;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+.l1 {
+    width: 150px;
+    height: 150px;;
+    cursor: pointer;
+}
+
+.text-container {
+    width: 150px;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+    visibility: hidden;
+}
+
+.l1:focus + .text-container,
+.l1:hover + .text-container {
+    transform: translateY(0);
+    visibility: visible;
+}
+
+
+
+
+/*Key frame*/
+@keyframes text-filter{
+
+  from{
+      color:white;
+  }
+  to{
+      color:gray;
+  }
+}
