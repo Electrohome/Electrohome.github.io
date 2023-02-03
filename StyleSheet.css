@@ -85,7 +85,9 @@ body {
             transform: translateY(0);
             animation: button-style 1s infinite alternate;
         }
-
+.container .card:active .face.face1{
+    transform:translateY(100px);
+}
 
         .container .card .face.face1 .content {
             opacity: .2;
