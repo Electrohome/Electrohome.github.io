@@ -1,3 +1,3 @@
-﻿$('.card').on('click', function () {
+﻿$('.card').on('hover', function () {
     $(this).toggleClass('active');
 });
