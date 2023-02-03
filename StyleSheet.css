@@ -16,7 +16,7 @@ body {
     left: 38%;
     font-size: 1cm;
     text-align:center;
-    color:black;
+    color:goldenrod;
     border-radius:20%;
     font-family: 'Luckiest Guy', cursive;
    
@@ -85,9 +85,10 @@ body {
             transform: translateY(0);
             animation: button-style 1s infinite alternate;
         }
-.container .card:active .face.face1{
-    transform:translateY(100px);
-}
+        .container .card:active .face.face1{
+            transform:translateY(100px);
+            animation: button-style 0;
+        }
 
         .container .card .face.face1 .content {
             opacity: .2;
@@ -117,7 +118,7 @@ body {
 
         .container .card .face.face2 {
             position: relative;
-            background: #333;
+            background: whitesmoke;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -130,17 +131,20 @@ body {
         .container .card:hover .face.face2 {
             transform: translateY(0);
         }
+        .container .card:active .face.face2{
+            transform:translateY(-100px);
+        }
 
         .container .card .face.face2 .content p, a {
             font-size: 10pt;
             margin: 0;
             padding: 0;
-            color: #fff;
+            color: #333;
         }
 
         .container .card .face.face2 .content a {
             text-decoration: none;
-            color: white;
+            color: black;
             box-sizing: border-box;
             outline: 1px dashed #333;
             padding: 10px;
