@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 200vh;
-    background: linear-gradient(45deg, #444, black);
+    background: linear-gradient(45deg, #EBEBEB, #FFFFFF);
     justify-content: center;
     align-items: center;
     font-family: 'Times New Roman';
@@ -115,7 +115,7 @@ body {
 
         .container .card .face.face2 {
             position: relative;
-            background: whitesmoke;
+            background: #444;
             display: flex;
             align-items: center;
             justify-content: center;
