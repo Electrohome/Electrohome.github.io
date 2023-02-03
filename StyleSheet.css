@@ -82,14 +82,14 @@ body {
                 transform: translateY(150px);
             }
 
-        .container .card:active .face.face1 {
+        .container .card:hover .face.face1 {
             transform: translateY(0);
             animation: button-style 1s infinite alternate;
         }
-       /* .container .card:active .face.face1{
+        .container .card:active .face.face1{
             transform:translateY(150px);
             animation: button-style 0;
-        }*/
+        }
 
         .container .card .face.face1 .content {
             opacity: .2;
@@ -129,12 +129,12 @@ body {
             transform: translateY(-150px);
         }
 
-        .container .card:active .face.face2 {
+        .container .card:hover .face.face2 {
             transform: translateY(0);
         }
-        /*.container .card:active .face.face2{
+        .container .card:active .face.face2{
             transform:translateY(-150px);
-        }*/
+        }
 
         .container .card .face.face2 .content p, a {
             font-size: 10pt;
