@@ -1,0 +1,84 @@
+﻿body {
+    background:linear-gradient(45deg,#1f0633,#ea8aa8);
+}
+.type-1,
+.type-2,
+.type-3,
+.type-4,
+.type-5,
+.type-6{
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    top: 3%;
+    transition:0.5s;
+    background: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow:inset 2px 2px 5px 0px #f20732;
+    animation: 0.5s;
+}
+.type-1{
+    left:60%;
+}
+.type-2{
+    left:calc( 60% + 80px );
+}
+.type-3 {
+    left: calc( 60% + 2 * 80px );
+}
+.type-4 {
+    left: calc( 60% + 3 * 80px );
+}
+.type-5 {
+    left: calc( 60% + 4 * 80px );
+}
+.type-6 {
+    left: calc( 60% + 5 * 80px );
+}
+    .type-1 a,
+    .type-2 a,
+    .type-3 a,
+    .type-4 a,
+    .type-5 a,
+    .type-6 a{
+        text-decoration: none;
+        color: #f20732;
+    }
+
+    .type-1:active,
+    .type-2:active,
+    .type-3:active,
+    .type-4:active,
+    .type-5:active,
+    .type-6:active{
+       
+        transform:scale(1.18);
+        box-shadow: 6px 6px 5px 0px #fff,inset 2px 2px 5px 0 #fff;
+        background: #f20732;
+    }
+
+
+    .type-1:active a,
+    .type-2:active a,
+    .type-3:active a,
+    .type-4:active a,
+    .type-5:active a,
+    .type-6:active a{
+        color:#fff;
+    }
+p {
+    color: whitesmoke;
+    position: absolute;
+    display: flex;
+    width: 25%;
+    top: 20%;
+    left: 10%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: solid 3px white;
+    border-radius: 1%;
+    
+    text-align: center;
+    word-wrap: break-word;
+    overflow: hidden;
+}
